@@ -10,10 +10,7 @@
 // uncomment to activate debugging mode
 //#define DEBUG 1
 
-// include description files for other libraries used
-// ...
-
-// library interface description
-// ...
+// include library parts
+#include "MHK_Button.h"
 
 #endif

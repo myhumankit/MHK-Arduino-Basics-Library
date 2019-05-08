@@ -2,12 +2,10 @@
 Usefull tools to start prototyping with Arduino.
 
 ## Features
- * (...)
+Simplify the use of common electronic sensors and actuators like:
+ * Buttons;
 
 ## Getting started
-
-### Requirements
- * (...)
 
 ### Installation
 [Download this repository](https://github.com/MyHumanKit/MHK-Arduino-Basics-Library/archive/master.zip) and unzip it into the Arduino libraries folder on your computer. You should rename the folder `MHK-Arduino-Basics-Library-master` in `MHK-Arduino-Basics-Library`.

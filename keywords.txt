@@ -7,16 +7,37 @@
 #######################################
 
 MHK_Arduino_Basics	KEYWORD1
+MHK_Button	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
+get	KEYWORD2
+set	KEYWORD2
+setHoldTime	KEYWORD2
+setIdleTime	KEYWORD2
+setMultiTime	KEYWORD2
+getCurrentStateStart	KEYWORD2
+getPreviousStateDuration	KEYWORD2
+on	KEYWORD2
+off	KEYWORD2
+changed	KEYWORD2
+pressed	KEYWORD2
+released	KEYWORD2
+hold	KEYWORD2
+idle	KEYWORD2
+multi	KEYWORD2
+setDebounceTime	KEYWORD2
+begin	KEYWORD2
+read	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
 #######################################
 
+VirtualButton	KEYWORD2
+Button	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
