@@ -4,6 +4,7 @@ Usefull tools to start prototyping with Arduino.
 ## Features
 Simplify the use of common electronic sensors and actuators like:
  * Buttons;
+ * Leds;
 
 ## Getting started
 

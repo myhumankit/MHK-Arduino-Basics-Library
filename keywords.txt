@@ -8,6 +8,7 @@
 
 MHK_Arduino_Basics	KEYWORD1
 MHK_Button	KEYWORD1
+MHK_Led	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
@@ -31,6 +32,8 @@ multi	KEYWORD2
 setDebounceTime	KEYWORD2
 begin	KEYWORD2
 read	KEYWORD2
+setBlinkTime	KEYWORD2
+blink	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
@@ -38,6 +41,7 @@ read	KEYWORD2
 
 VirtualButton	KEYWORD2
 Button	KEYWORD2
+Led	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
