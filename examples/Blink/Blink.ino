@@ -17,9 +17,10 @@ void setup() {
 
   // configure Led object
   led.setBlinkTime(500); // duration in milliseconds: 0 to 65535 (default: 1000)
+  led.blink(); // set blink on
 }
 
 void loop() {
-  led.blink(); // update led state
+  led.update(); // update led state
   delay(10); // a little delay for stability ...
 }

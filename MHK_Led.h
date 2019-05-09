@@ -46,17 +46,29 @@ class Led {
 
     void on() {
       set(!_defaultState);
+      noBlink();
     };
 
     void off() {
       set(_defaultState);
+      noBlink();
     };
 
     void blink() {
-      uint32_t now = millis();
-      if (now > _lastBlinkTime + _blinkTime) {
-        set(!_state);
-        _lastBlinkTime = now;
+      _blink = true;
+    };
+
+    void noBlink() {
+      _blink = false;
+    };
+
+    void update() {
+      if (_blink) {
+        uint32_t now = millis();
+        if (now > _lastBlinkTime + _blinkTime) {
+          set(!_state);
+          _lastBlinkTime = now;
+        }
       }
     };
 

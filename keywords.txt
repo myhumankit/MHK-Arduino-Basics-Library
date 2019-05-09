@@ -34,6 +34,8 @@ begin	KEYWORD2
 read	KEYWORD2
 setBlinkTime	KEYWORD2
 blink	KEYWORD2
+noBlink	KEYWORD2
+update	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
