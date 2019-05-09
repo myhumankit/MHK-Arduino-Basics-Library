@@ -9,7 +9,7 @@
 #include <MHK_Led.h>
 
 // Led object
-Led led(13, LOW); // pin number (default: LED_BUILTIN), defaultState: HIGH / LOW (default: LOW)
+Led led(6, LOW); // pin number (default: LED_BUILTIN), defaultState: HIGH / LOW (default: LOW)
 
 void setup() {
   // initialize Led object
@@ -17,6 +17,7 @@ void setup() {
 
   // configure Led object
   led.setBlinkTime(500); // duration in milliseconds: 0 to 65535 (default: 1000)
+  led.setBrightness(7); // brightness: 0 to 15 (default: 15) (only for PWM pins!)
   led.blink(); // set blink on
 }
 

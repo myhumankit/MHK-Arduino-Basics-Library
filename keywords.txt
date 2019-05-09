@@ -33,6 +33,7 @@ setDebounceTime	KEYWORD2
 begin	KEYWORD2
 read	KEYWORD2
 setBlinkTime	KEYWORD2
+setBrightness	KEYWORD2
 blink	KEYWORD2
 noBlink	KEYWORD2
 update	KEYWORD2
