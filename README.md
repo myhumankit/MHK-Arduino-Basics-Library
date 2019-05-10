@@ -7,7 +7,7 @@ Simplify the use of common electronic sensors and actuators like:
  * Leds;
 
 Or more complex shields like :
- * VMA203 LCD Keypad Shield;
+ * [VMA203 LCD Keypad Shield](https://www.velleman.eu/products/view/?id=435510);
 
 ## Getting started
 
