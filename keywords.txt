@@ -9,6 +9,7 @@
 MHK_Arduino_Basics	KEYWORD1
 MHK_Button	KEYWORD1
 MHK_Led	KEYWORD1
+MHK_VMA203	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
@@ -37,6 +38,16 @@ setBrightness	KEYWORD2
 blink	KEYWORD2
 noBlink	KEYWORD2
 update	KEYWORD2
+VMA203_Keypad	KEYWORD2
+right	KEYWORD2
+up	KEYWORD2
+down	KEYWORD2
+left	KEYWORD2
+select	KEYWORD2
+VMA203_Shield	KEYWORD2
+lcd	KEYWORD2
+keypad	KEYWORD2
+backlight	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)

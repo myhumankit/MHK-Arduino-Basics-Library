@@ -95,11 +95,11 @@ class VMA203_Keypad {
 };
 
 
-class VMA203 {
+class VMA203_Shield {
   public:
 
     // constructor:
-    VMA203():
+    VMA203_Shield():
         lcd(LCD_RS, LCD_EN, LCD_D4, LCD_D5, LCD_D6, LCD_D7),
         backlight(LCD_Backlight, LOW)
     {};
@@ -108,7 +108,6 @@ class VMA203 {
     void begin() {
         lcd.begin(16, 2);
         backlight.begin();
-        //backlight.setBrightness(15);
         backlight.on();
     };
 

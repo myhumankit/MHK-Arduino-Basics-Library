@@ -7,7 +7,7 @@
 #include <MHK_VMA203.h>
 
 // VMA203 object
-VMA203 shield;
+VMA203_Shield shield;
 
 // variable to change backlight brightness
 int brightness = 15;
@@ -41,7 +41,7 @@ void loop() {
   if (shield.keypad.up.pressed()) {
     shield.lcd.clear();
     shield.lcd.print("UP");
-    
+
     brightness = min(brightness + 1, 15);
     shield.backlight.setBrightness(brightness);
     shield.backlight.on();
@@ -50,7 +50,7 @@ void loop() {
   if (shield.keypad.down.pressed()) {
     shield.lcd.clear();
     shield.lcd.print("DOWN");
-    
+
     brightness = max(brightness - 1, 0);
     shield.backlight.setBrightness(brightness);
     shield.backlight.on();
