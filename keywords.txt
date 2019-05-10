@@ -15,6 +15,7 @@ MHK_VMA203	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
+# VirtualButton
 get	KEYWORD2
 set	KEYWORD2
 setHoldTime	KEYWORD2
@@ -30,21 +31,34 @@ released	KEYWORD2
 hold	KEYWORD2
 idle	KEYWORD2
 multi	KEYWORD2
+
+# Button
 setDebounceTime	KEYWORD2
 begin	KEYWORD2
 read	KEYWORD2
+
+# Led
+get	KEYWORD2
+set	KEYWORD2
 setBlinkTime	KEYWORD2
 setBrightness	KEYWORD2
+begin	KEYWORD2
+on	KEYWORD2
+off	KEYWORD2
 blink	KEYWORD2
 noBlink	KEYWORD2
 update	KEYWORD2
-VMA203_Keypad	KEYWORD2
+
+# VMA203_Keypad
+read	KEYWORD2
 right	KEYWORD2
 up	KEYWORD2
 down	KEYWORD2
 left	KEYWORD2
 select	KEYWORD2
-VMA203_Shield	KEYWORD2
+
+# VMA203_Shield
+begin	KEYWORD2
 lcd	KEYWORD2
 keypad	KEYWORD2
 backlight	KEYWORD2
@@ -53,9 +67,16 @@ backlight	KEYWORD2
 # Instances (KEYWORD2)
 #######################################
 
+# MHK_Button
 VirtualButton	KEYWORD2
 Button	KEYWORD2
+
+# MHK_Led
 Led	KEYWORD2
+
+# MHK_VMA203
+VMA203_Keypad	KEYWORD2
+VMA203_Shield	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
