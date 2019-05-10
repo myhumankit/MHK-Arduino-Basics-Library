@@ -13,5 +13,6 @@
 // include library parts
 #include "MHK_Button.h"
 #include "MHK_Led.h"
+#include "MHK_VMA203.h"
 
 #endif
