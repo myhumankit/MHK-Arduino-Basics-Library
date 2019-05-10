@@ -6,6 +6,9 @@ Simplify the use of common electronic sensors and actuators like:
  * Buttons;
  * Leds;
 
+Or more complex shields like :
+ * VMA203 LCD Keypad Shield;
+
 ## Getting started
 
 ### Installation
