@@ -8,6 +8,7 @@ Simplify the use of common electronic sensors and actuators like:
 
 Or more complex shields like :
  * [VMA203 LCD Keypad Shield](https://www.velleman.eu/products/view/?id=435510);
+ * [Serial MP3 Player](https://www.amazon.fr/gp/product/B07KFL1X4D);
 
 ## Getting started
 

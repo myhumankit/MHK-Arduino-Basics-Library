@@ -10,6 +10,7 @@ MHK_Arduino_Basics	KEYWORD1
 MHK_Button	KEYWORD1
 MHK_Led	KEYWORD1
 MHK_VMA203	KEYWORD1
+MHK_Serial_MP3_Player	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
@@ -63,6 +64,20 @@ lcd	KEYWORD2
 keypad	KEYWORD2
 backlight	KEYWORD2
 
+# MP3Player
+setVolume	KEYWORD2
+setEqualizer	KEYWORD2
+begin	KEYWORD2
+volumeUp	KEYWORD2
+volumeDown	KEYWORD2
+playTrack	KEYWORD2
+play	KEYWORD2
+pause	KEYWORD2
+stop	KEYWORD2
+sendCommand	KEYWORD2
+reset	KEYWORD2
+selectSDCard	KEYWORD2
+
 #######################################
 # Instances (KEYWORD2)
 #######################################
@@ -77,6 +92,9 @@ Led	KEYWORD2
 # MHK_VMA203
 VMA203_Keypad	KEYWORD2
 VMA203_Shield	KEYWORD2
+
+# MHK_Serial_MP3_Player
+MP3Player	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
