@@ -15,7 +15,7 @@
 // Constructor /////////////////////////////////////////////////////////////////
 // Function that handles the creation and setup of instances
 
-VirtualButton::VirtualButton(bool defaultState = LOW):
+VirtualButton::VirtualButton(bool defaultState):
   _state(defaultState),
   _previousState(defaultState),
   _defaultState(defaultState),
@@ -37,7 +37,7 @@ VirtualButton::VirtualButton(bool defaultState = LOW):
 {};
 
 
-Button::Button(uint8_t pin, bool defaultValue = LOW)
+Button::Button(uint8_t pin, bool defaultValue)
        :VirtualButton(defaultValue),
   _pin(pin),
   _debounceTime(0),
